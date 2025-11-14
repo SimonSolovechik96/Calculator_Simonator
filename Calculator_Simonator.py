@@ -1,3 +1,5 @@
+
+# geometrinės formos kūno ploto skaičiuoklė
 print("Kokio geometrinės formos kūno plotą nori paskaičiuoti? ")
 
 area = input ( " Pasrink formą ( kvadratas, stačiakampis, skritulis, trikampis)")
@@ -30,4 +32,5 @@ elif area == 'trikampis':
     plotas = 1/2*pagrindas*aukštis
     print ("Tavo rezultatas:")
     print (plotas)
+
 else: print (" Neteisinga forma, loxe ")
